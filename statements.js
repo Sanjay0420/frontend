@@ -40,7 +40,7 @@ for ( let y=0 ; y <=20 ; y+=2){
 }
 
 
-let arr= [1,2,3,4,5           ]
+let arr= [1,2,3,4,5];
 for ( let i=0 ; i<=20 ; i++){
      console.log("The result is : "+ arr[i]);
 }
@@ -56,3 +56,15 @@ do{
      console.log("Do While : " + arr[i]);
      i++;
 }while( i< arr.length);
+
+
+let object = {a:1,b:2,c:3,d:4,d:5,e:"hii"};
+//advanced forloop
+ for(let arr1 of arr){
+     console.log(" the adv loop element :" + arr1)
+ }
+ for(let object1 in object){
+     console.log("The Object element :" + object1 +" , value : " + object[object1] );
+ }
+
+ 
